@@ -1,0 +1,9 @@
+[package]
+name = "baekjoon"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = [ "abs_heap", "maximum_hip", "middle_nomber", "minimum_hip","normal_backpack", "sorting_cards"]
+
+[dependencies]
