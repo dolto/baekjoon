@@ -4,6 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [workspace]
-members = [ "abs_heap", "maximum_hip", "middle_nomber", "minimum_hip","normal_backpack", "sorting_cards"]
+members = [ "abs_heap", "dual_priority_queue", "maximum_hip", "middle_nomber", "minimum_hip","normal_backpack", "sorting_cards", "thief_jewel"]
 
 [dependencies]
