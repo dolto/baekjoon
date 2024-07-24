@@ -8,3 +8,6 @@
 - 가운데를 말해요 -> middle_nomber
 - 보석도둑 -> thief_jewel
 - 이중 우선순위 큐 -> dual_priority_queue
+
+## 다이나믹 프로그래밍
+- 평범한 배낭 -> normal_backpack
