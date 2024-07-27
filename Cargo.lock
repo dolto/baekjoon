@@ -11,6 +11,42 @@ name = "baekjoon"
 version = "0.1.0"
 
 [[package]]
+name = "baekjoon_1010"
+version = "0.1.0"
+
+[[package]]
+name = "baekjoon_10189"
+version = "0.1.0"
+
+[[package]]
+name = "baekjoon_15128"
+version = "0.1.0"
+
+[[package]]
+name = "baekjoon_24262"
+version = "0.1.0"
+
+[[package]]
+name = "baekjoon_27433"
+version = "0.1.0"
+
+[[package]]
+name = "baekjoon_28701"
+version = "0.1.0"
+
+[[package]]
+name = "baekjoon_30007"
+version = "0.1.0"
+
+[[package]]
+name = "baekjoon_3046"
+version = "0.1.0"
+
+[[package]]
+name = "baekjoon_5656"
+version = "0.1.0"
+
+[[package]]
 name = "dual_priority_queue"
 version = "0.1.0"
 
@@ -36,4 +72,8 @@ version = "0.1.0"
 
 [[package]]
 name = "thief_jewel"
+version = "0.1.0"
+
+[[package]]
+name = "workbook"
 version = "0.1.0"
