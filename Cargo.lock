@@ -83,6 +83,10 @@ name = "baekjoon_11727"
 version = "0.1.0"
 
 [[package]]
+name = "baekjoon_1260"
+version = "0.1.0"
+
+[[package]]
 name = "baekjoon_1330"
 version = "0.1.0"
 
