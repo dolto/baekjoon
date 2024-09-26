@@ -119,6 +119,10 @@ name = "baekjoon_14709"
 version = "0.1.0"
 
 [[package]]
+name = "baekjoon_14928"
+version = "0.1.0"
+
+[[package]]
 name = "baekjoon_14940"
 version = "0.1.0"
 
@@ -351,6 +355,10 @@ name = "baekjoon_28701"
 version = "0.1.0"
 
 [[package]]
+name = "baekjoon_29766"
+version = "0.1.0"
+
+[[package]]
 name = "baekjoon_30007"
 version = "0.1.0"
 
@@ -408,6 +416,10 @@ version = "0.1.0"
 
 [[package]]
 name = "baekjoon_7287"
+version = "0.1.0"
+
+[[package]]
+name = "baekjoon_7572"
 version = "0.1.0"
 
 [[package]]
