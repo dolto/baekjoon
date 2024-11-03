@@ -77,17 +77,17 @@ fn main() {
         writeln!(bw, "{}", (yj_base + UtcClock::from_base_time(time))).unwrap();
     }
 
-    for i in -12..=12 {
-        for j in [0, 5] {
-            let time = format!("UTC{}.{}", i, j);
-            writeln!(
-                bw,
-                "{}",
-                (yj_base + UtcClock::from_base_time(time.as_str()))
-            )
-            .unwrap();
-        }
-    }
+    // for i in -12..=12 {
+    //     for j in [0, 5] {
+    //         let time = format!("UTC{}.{}", i, j);
+    //         writeln!(
+    //             bw,
+    //             "{}",
+    //             (yj_base + UtcClock::from_base_time(time.as_str()))
+    //         )
+    //         .unwrap();
+    //     }
+    // }
 
     bw.flush().unwrap();
 }
