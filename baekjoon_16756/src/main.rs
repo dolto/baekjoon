@@ -10,23 +10,27 @@ fn main() {
     let n = input.next().unwrap() as usize;
     let mut answer = i64::MAX;
     let mut list = Vec::with_capacity(n);
-    let mut mins = list.clone();
-    let mut maxs = list.clone();
 
     for _ in 0..n {
         list.push(input.next().unwrap());
     }
 
-    for step in 1..n {
-        for i in 0..n - step {
-            mins[i] = mins[i].min(list[i + step]);
-            maxs[i] = maxs[i].max(list[i + step]);
-        }
+    for i in 0..n - 1 {
+        answer = answer.min((list[i + 1] - list[i]).abs());
     }
+    // let mut mins = list.clone();
+    // let mut maxs = list.clone();
 
-    for i in 0..n {
-        answer = answer.min(maxs[i] - mins[i]);
-    }
+    // for step in 1..n {
+    //     for i in 0..n - step {
+    //         mins[i] = mins[i].min(list[i + step]);
+    //         maxs[i] = maxs[i].max(list[i + step]);
+    //     }
+    // }
+
+    // for i in 0..n {
+    //     answer = answer.min(maxs[i] - mins[i]);
+    // }
 
     stdout().write(answer.to_string().as_bytes()).unwrap();
 }
