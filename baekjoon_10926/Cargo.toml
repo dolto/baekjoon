@@ -1,0 +1,6 @@
+[package]
+name = "baekjoon_10926"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
