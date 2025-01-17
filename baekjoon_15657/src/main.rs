@@ -11,31 +11,31 @@ fn main() {
     let (n, m) = (input.next().unwrap(), input.next().unwrap());
 
     let mut list = Vec::with_capacity(n);
-
     (0..n).for_each(|_| list.push(input.next().unwrap()));
     list.sort();
-
-    (0..list.len()).for_each(|i| solve(&mut list, String::with_capacity(m), i, 0, m, &mut writer));
-
+    dfs(0, String::new(), 0, &mut list, &m, &mut writer);
     writer.flush().unwrap();
 }
 
-fn solve(
-    arr: &Vec<usize>,
-    mut result: String,
-    start: usize,
+fn dfs(
     count: usize,
-    max: usize,
+    mut result: String,
+    index: usize,
+    list: &mut Vec<usize>,
+    size: &usize,
     writer: &mut BufWriter<StdoutLock>,
 ) {
-    if count == max {
-        writer.write(format!("{}\n", result).as_bytes()).unwrap();
-    } else {
-        result.push_str(format!("{} ", arr[start]).as_str());
-        if count + 1 == max {
-            solve(arr, result, start, count + 1, max, writer);
-        } else {
-            (start..arr.len()).for_each(|i| solve(arr, result.clone(), i, count + 1, max, writer));
-        }
+    if index == list.len() {
+        return;
     }
+    if count == *size {
+        result.push('\n');
+        writer.write(result.as_bytes()).unwrap();
+        return;
+    }
+
+    let temp = result.clone();
+    result.push_str(format!("{} ", list[index]).as_str());
+    dfs(count + 1, result, index, list, size, writer);
+    dfs(count, temp, index + 1, list, size, writer);
 }
