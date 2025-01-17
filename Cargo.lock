@@ -183,6 +183,10 @@ name = "baekjoon_14656"
 version = "0.1.0"
 
 [[package]]
+name = "baekjoon_14681"
+version = "0.1.0"
+
+[[package]]
 name = "baekjoon_14709"
 version = "0.1.0"
 
@@ -459,6 +463,10 @@ name = "baekjoon_2476"
 version = "0.1.0"
 
 [[package]]
+name = "baekjoon_2480"
+version = "0.1.0"
+
+[[package]]
 name = "baekjoon_24883"
 version = "0.1.0"
 
@@ -468,6 +476,10 @@ version = "0.1.0"
 
 [[package]]
 name = "baekjoon_25205"
+version = "0.1.0"
+
+[[package]]
+name = "baekjoon_2525"
 version = "0.1.0"
 
 [[package]]
@@ -555,6 +567,10 @@ name = "baekjoon_2752"
 version = "0.1.0"
 
 [[package]]
+name = "baekjoon_2753"
+version = "0.1.0"
+
+[[package]]
 name = "baekjoon_27866"
 version = "0.1.0"
 
@@ -592,6 +608,10 @@ version = "0.1.0"
 
 [[package]]
 name = "baekjoon_28701"
+version = "0.1.0"
+
+[[package]]
+name = "baekjoon_2884"
 version = "0.1.0"
 
 [[package]]
@@ -776,6 +796,10 @@ version = "0.1.0"
 
 [[package]]
 name = "baekjoon_9461"
+version = "0.1.0"
+
+[[package]]
+name = "baekjoon_9498"
 version = "0.1.0"
 
 [[package]]
